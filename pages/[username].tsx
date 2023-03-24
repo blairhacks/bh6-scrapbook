@@ -60,7 +60,7 @@ export default function ScrapbookUserPage() {
       {/* <meta name="description" content="by @linkai101 on github" /> */}
     </Head>
 
-    <Navbar type="scrapbook"/>
+    <Navbar/>
 
     <header className="px-8 pt-20 pb-14 container max-w-6xl flex flex-col">
       <div className="flex items-end gap-4">
