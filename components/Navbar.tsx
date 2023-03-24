@@ -8,6 +8,11 @@ export default function Navbar() {
     <div className="fixed top-0 inset-x-0 z-30">
       <nav className="px-4 py-6 container max-w-6xl flex justify-end relative gap-12">
         <div className="flex justify-center items-center gap-5 text-sm font-bold uppercase">
+          <Link href="/about" passHref>
+            <a className="cursor-pointer hover:underline underline-offset-2">
+              About
+            </a>
+          </Link>
           <a className="text-neutral-400/60 hover:text-inherit cursor-pointer transition duration-150 hover:scale-105" href="https://github.com/blairhacks/bh6-scrapbook" target="_blank" rel="noopener noreferrer">
             <GitHub size={20}/>
           </a>
