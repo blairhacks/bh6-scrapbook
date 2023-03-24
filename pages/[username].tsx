@@ -64,7 +64,7 @@ export default function ScrapbookUserPage() {
 
     <header className="px-8 pt-20 pb-14 container max-w-6xl flex flex-col">
       <div className="flex items-end gap-4">
-        <Link href="/scrapbook" passHref>
+        <Link href="/" passHref>
           <a className="hover:underline underline-offset-2">
             <span className="flex items-center gap-0.5 text-neutral-300 font-bold">
               <ChevronLeft size={20}/> back
@@ -83,11 +83,11 @@ export default function ScrapbookUserPage() {
       {/* <meta name="description" content="by @linkai101 on github" /> */}
     </Head>
 
-    <Navbar type="scrapbook"/>
+    <Navbar/>
 
     <header className="px-8 pt-20 pb-10 container max-w-6xl flex flex-col gap-6">
       <div className="flex items-end gap-4">
-        <Link href="/scrapbook" passHref>
+        <Link href="/" passHref>
           <a className="hover:underline underline-offset-2">
             <span className="flex items-center gap-0.5 text-neutral-300 font-bold">
               <ChevronLeft size={20}/> back

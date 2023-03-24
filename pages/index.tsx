@@ -36,7 +36,7 @@ export default function ScrapbookPage() {
       {/* <meta name="description" content="by @linkai101 on github" /> */}
     </Head>
 
-    <Navbar type="scrapbook"/>
+    <Navbar/>
 
     <header className="px-8 pt-28 pb-14 flex flex-col items-center">
       <h1 className="text-3xl sm:text-5xl text-amber-400 font-extrabold font-fancy italic leading-tight text-center">
@@ -64,7 +64,7 @@ export default function ScrapbookPage() {
             />
             <div>
               <h3 className="font-bold leading-5">
-                <Link href={`/scrapbook/${scrap.fields["Username (from User)"]}`} passHref>
+                <Link href={`/${scrap.fields["Username (from User)"]}`} passHref>
                   <a>
                     @{scrap.fields["Username (from User)"]}
                   </a>

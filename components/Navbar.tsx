@@ -3,9 +3,7 @@ import Link from 'next/link';
 
 import { GitHub } from 'react-feather';
 
-export default function Navbar(props) {
-  const { type='default' }:{ type: 'default' | 'scrapbook' } = props;
-
+export default function Navbar() {
   return <>
     <div className="fixed top-0 inset-x-0 z-30">
       <nav className="px-4 py-6 container max-w-6xl flex justify-end relative gap-12">
